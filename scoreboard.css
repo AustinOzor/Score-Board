@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+}
+.container{
+background-color: #1B244A;
+color: white;
+text-align: center;
+background-image: url(images/bg.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+padding-block: 1rem;
+margin: auto;
+max-width: 800px;
+border-radius: 20px;
+border: 6px solid coral;
+}
+.container h1{
+    padding-top: 10px;
+}
+.scoreboard--body {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #1B244A; */
+    color: white;
+    height: 70vh;
+    text-align: center;
+}
+.score{
+    background-color: rgb(236, 221, 221);
+    color:crimson;
+    font-size:6rem;
+    font-weight: 800;
+    text-align: center;
+    width: 200px;
+    border-radius: 20px;
+    margin-block: 3rem;
+}
+.increase-score{
+    margin-top: 1.5rem;
+}
+.incre_score{
+     border: 1px solid #9AABD8; 
+    padding:8px 5px;  
+    border-radius: 5px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.incre_score:hover{
+    background-color: khaki;
+    color: red;
+     border: 1px solid crimson; 
+    transition: color .5s;
+}
+#home-lead{
+  font-size:1.5rem ;
+  color: greenyellow;
+  display: none;
+  transition: color .5s;
+  
+}
+#away-lead{
+   font-size: 1.5rem;
+   color: greenyellow;
+   display: none;
+  transition: color .5s;
+}
+#newGame{
+    width: 200px;
+    background-color: orange;
+    padding-block: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: white;
+}
+#newGame:hover{
+color: red;    
+}
+img {
+    border-radius: 15px;
+}
